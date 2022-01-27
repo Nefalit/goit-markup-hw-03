@@ -44,14 +44,19 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 .button.secondary {
   color: var(--secondtextcolor);
   background-color: var(--third-background);
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+
+  cursor: pointer;
 }
 .button.secondary:focus, .button.secondary:hover {
   color: var(--whitetextcolor);
