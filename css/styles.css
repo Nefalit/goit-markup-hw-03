@@ -15,6 +15,7 @@
   --second-background: #2F303A;
   --third-background: #F5F4FA;
 }
+
 /* global style */
 a {
   text-decoration: none;
@@ -25,18 +26,13 @@ ul {
 .hide {
   font-size: 0%;
 }
+
 /* buttons */
 .button {
-  
-
   color: var(--secondtextcolor);
   background-color: var(--third-background);
 
   font-family: inherit;
-}
-.button.secondary:focus, .button.secondary:hover {
-  color: var(--whitetextcolor);
-  background-color: var(--activecolor);
 }
 .button.primary {
   color: var(--whitetextcolor);
@@ -52,7 +48,16 @@ ul {
 .button.secondary {
   color: var(--secondtextcolor);
   background-color: var(--third-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
+.button.secondary:focus, .button.secondary:hover {
+  color: var(--whitetextcolor);
+  background-color: var(--activecolor);
+}
+
 /* body */
 body {
   background-color: var(--background);
@@ -61,7 +66,6 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-
 
 /* header */
 .header {
@@ -132,6 +136,7 @@ body {
 }
 
 /* index style */
+
 /* hero */
 .hero {
   background-color: var(--second-background);
@@ -147,9 +152,7 @@ body {
   text-transform: uppercase;
 }
 
-
 /* special */
-
 .special .special-title {
   color: var(--secondtextcolor);
 
