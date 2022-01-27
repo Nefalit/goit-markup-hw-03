@@ -50,7 +50,7 @@ ul {
   background-color: var(--third-background);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.62;
   text-align: center;
 }
 .button.secondary:focus, .button.secondary:hover {
