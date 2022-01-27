@@ -4,50 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <!--header-->
-   <header>
+   <header class="header">
       <nav>
-        <a href="/">WebStudio</a>
-        <ul>
-           <li><a href="/">Студия</a></li>
-           <li><a href="./portfolio.html">Портфолио</a></li>
-           <li><a href="./contact.html">Контакты</a></li>
+        <a href="./index.html" class="logo">WebStudio</a>
+        <ul class="site-nav">
+           <li><a href="./index.html" class="nav-link">Студия</a></li>
+           <li><a href="./portfolio.html" class="nav-link current">Портфолио</a></li>
+           <li><a href="./contact.html" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="site-contact">
+        <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
       </ul>
    </header>
     <main>
-      <p> &lt; 123 address &gt; Content portfolio</p>
-
-       <video 
-       muted
-        width="400"
-        controls
-        loop
-        preload="metadata">
-        <source src="/videos/fishing.mp4">
-        Your browser does not support the <code>video</code> element.
-        </video>
-
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8IC6-IyFeYc?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        
+    <!--filter-buttons-->
+     <section class="filter-button">
+      <ul> 
+         <li><button class="button secondary" type="button">Все</button> </li>
+         <li><button class="button secondary" type="button">Веб-сайты</button></li>
+         <li><button class="button secondary" type="button">Приложения</button></li>
+         <li><button class="button secondary" type="button">Дизайн</button></li>
+         <li><button class="button secondary" type="button">Маркетинг</button></li>
+      </ul>
+     </section>
+     <!--portfolio examples-->
+     <section class="portfolio-exemples">
+     <!--h1 hide css-->
+     <h1 class="hide">work examples</h1>
+      <ul>
+       <li>
+         <img src="./images/technokr.jpg" alt="Технокряк" width="370">
+         <h2 class="exemples-title">Технокряк</h2>
+         <p class="exemple-filter">Веб-сайт</p>
+       </li>
+       <li>
+         <img src="./images/poster_neworl_vs_goldstar.jpg" alt="Постер New Orlean vs Golden Star" width="370">
+         <h2 class="exemples-title">Постер New Orlean vs Golden Star</h2>
+         <p class="exemple-filter">Дизайн</p>
+       </li>
+       <li>
+         <img src="./images/restoraunt_seafood.jpg" alt="Ресторан Seafood" width="370">
+         <h2 class="exemples-title">Ресторан Seafood</h2>
+         <p class="exemple-filter">Приложение</p>
+       </li>
+       <li>
+         <img src="./images/project_prime.jpg" alt="Проект Prime" width="370">
+         <h2 class="exemples-title">Проект Prime</h2>
+         <p class="exemple-filter">Маркетинг</p>
+       </li>
+       <li>
+         <img src="./images/project_boxes.jpg" alt="Проект Boxes" width="370">
+         <h2 class="exemples-title">Проект Boxes</h2>
+         <p class="exemple-filter">Приложение</p>
+       </li>
+       <li>
+         <img src="./images/inspiration_has_no_borders.jpg" alt="Inspiration has no Borders" width="370">
+         <h2 class="exemples-title" lang="en">Inspiration has no Borders</h2>
+         <p class="exemple-filter">Веб-сайт</p>
+       </li>
+       <li>
+         <img src="./images/limited_idition.jpg" alt="Издание Limited Edition" width="370">
+         <h2 class="exemples-title">Издание Limited Edition</h2>
+         <p class="exemple-filter">Дизайн</p>
+       </li>
+       <li>
+         <img src="./images/project_lab.jpg" alt="Проект LAB" width="370">
+         <h2 class="exemples-title">Проект LAB</h2>
+         <p class="exemple-filter">Маркетинг</p>
+       </li>
+       <li>
+         <img src="./images/growing_business.jpg" alt="Growing Business" width="370">
+         <h2 class="exemples-title" lang="en">Growing Business</h2>
+         <p class="exemple-filter">Приложение</p>
+       </li>
+      </ul>
+     </section>
     </main>
    <!--footer hw-->
-   <footer>
-        <a href="/">WebStudio</a>
+   <footer class="footer">
+        <a href="./index.html" class="logo">WebStudio</a>
         <address>
             <ul>
-                <li><a href="https://goo.gl/maps/XMWMVRejnvmh2yPAA">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li><a href="https://goo.gl/maps/XMWMVRejnvmh2yPAA" class="footer-address">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a href="mailto:info@example.com" class="footer-contact">info@example.com</a></li>
+                <li><a href="tel:+380991111111" class="footer-contact">+38 099 111 11 11</a></li>
             </ul>
         </address>
    </footer>

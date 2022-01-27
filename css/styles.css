@@ -1,0 +1,224 @@
+/* colors */
+/* maintext #757575; */
+/* secondtext  #212121 */
+/* activecolor #2196F3 */
+/* background: #E5E5E5; */
+/* second background: #2F303A; */
+/* third background: #F5F4FA; */
+
+:root {
+  --maintextcolor: #757575;
+  --secondtextcolor: #212121;
+  --whitetextcolor: #FFFFFF;
+  --activecolor: #2196F3;
+  --background: #E5E5E5;
+  --second-background: #2F303A;
+  --third-background: #F5F4FA;
+}
+/* global style */
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.hide {
+  font-size: 0%;
+}
+/* buttons */
+.button {
+  
+
+  color: var(--secondtextcolor);
+  background-color: var(--third-background);
+
+  font-family: inherit;
+}
+.button.secondary:focus, .button.secondary:hover {
+  color: var(--whitetextcolor);
+  background-color: var(--activecolor);
+}
+.button.primary {
+  color: var(--whitetextcolor);
+  background-color: var(--activecolor);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button.secondary {
+  color: var(--secondtextcolor);
+  background-color: var(--third-background);
+}
+/* body */
+body {
+  background-color: var(--background);
+
+  color:var(--maintextcolor);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+
+/* header */
+.header {
+  background-color: var(--whitetextcolor);
+}
+/* logo */
+.logo{
+  color:var(--activecolor);
+
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+/* site-nav */
+.site-nav .nav-link {
+  color:var(--secondtextcolor);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color:var(--activecolor)
+}
+.site-nav .nav-link.current {
+  color: var(--activecolor);
+}
+
+/* site-contact */
+.site-contact .contact-link {
+  color:var(--maintextcolor);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-contact .contact-link:hover,
+.site-contact .contact-link:focus  {
+  color: var(--activecolor)
+}
+
+/* footer styles */
+.footer {
+  background-color: var(--second-background);
+}
+.footer .footer-address {
+  color: var(--whitetextcolor);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer .footer-address:hover, .footer-address:focus {
+  color: var(--activecolor);
+}
+.footer .footer-contact {
+  color: rgba(255, 255, 255, 60%);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer .footer-contact:hover, .footer-contact:focus {
+  color: var(--activecolor);
+}
+
+/* index style */
+/* hero */
+.hero {
+  background-color: var(--second-background);
+}
+.hero .hero-title {
+  color: var(--whitetextcolor);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+
+/* special */
+
+.special .special-title {
+  color: var(--secondtextcolor);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.special .special-item {
+  color: var(--maintextcolor);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* about work */
+.about-work .work-title {
+  color: var(--secondtextcolor);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* our team */
+.our-team .team-title {
+  color: var(--secondtextcolor);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.our-team .personal-title {
+  color: var(--secondtextcolor);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.our-team .personal-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* portfolio styles */
+
+/* filter button */
+/* portfolio exemples */
+.portfolio-exemples .exemples-title {
+  color: var(--secondtextcolor);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-exemples .exemple-filter {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+
+
+
+
+
+
+
+
