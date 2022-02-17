@@ -299,6 +299,10 @@ body {
 }
 
 /* about work */
+
+.about-work {
+  padding-top: 0px;
+}
 .work-title {
   color: var(--secondtextcolor);
 
@@ -332,7 +336,6 @@ body {
 .team-member {
   display: block;
   background-color: rgba(255, 255, 255, 1);
-  height: 368px;
   width: 270px;
   left: 815px;
   top: 1635px;
@@ -365,7 +368,11 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin: 0px 0px 30px 0px;
+  margin: 0px;
+}
+
+.team-card {
+  margin-bottom: 30px;
 }
 
 /* portfolio styles */
@@ -393,12 +400,13 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 0px 24px 4px 24px;
+  margin-top: 0px;
+  margin-bottom: 4px;
 }
 .exemple-filter {
   font-size: 16px;
   line-height: 1.87;
-  margin: 0px 24px 20px 24px;
+  margin: 0px
 }
 .portfolio-exemples {
   padding-top: 0px;
@@ -413,9 +421,13 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-  border-radius: 0px;
-  border: 1px solid rgba(238, 238, 238, 1);
 }
 .example-image {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.exemple-card {
+  padding: 20px 24px;
+border-radius: 0px;
+border: 1px solid rgba(238, 238, 238, 1);
 }
