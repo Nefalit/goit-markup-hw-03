@@ -114,9 +114,8 @@ body {
 .header-item {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
+
 .header-logo {
   margin-right: 93px;
 }
@@ -129,8 +128,11 @@ body {
 }
 
 .nav-item:not(:last-child) {
+  display: block;
   margin-left: 0px;
   margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 0px;
 }
 .nav-header {
